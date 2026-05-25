@@ -17,12 +17,11 @@ This project allows users to Create, Read, Update, and Delete student records.
  6. MongoDB database storage
  7. Form validation (frontend)
 # API Endpoints
-Method		       Description
-GET		           Get all students
-GET		           Get student by ID
-POST		         Add new student
-PUT		           Update student
-DELETE		       Delete student
+Method		         Description
+1. GET		         Get all students
+2. POST		        Add new student
+3. PUT		         Update student
+4. DELETE		      Delete student
 # Database Configuration
 "StudentDatabase": {
   "ConnectionString": "mongodb://localhost:27017",
